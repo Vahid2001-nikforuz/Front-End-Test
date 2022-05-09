@@ -1,5 +1,5 @@
 # Your Task
-Your task is to implement [this](https://demos.themeselection.com/sneat-bootstrap-html-admin-template-free/html/) dashboard page with react.
+Your task is to implement [this](https://hypeauditor.com/) landing page with react.
 
 You'll be evaluated on:
 
