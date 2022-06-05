@@ -1,0 +1,290 @@
+html,
+body {
+    margin: 0;
+    background-color: #f7fafc;
+
+}
+
+body {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1600px;
+    overflow-x: hidden;
+}
+
+.carousel-cell {
+    background-color: powderblue;
+    overflow: hidden;
+    border-radius: 10px;
+    display: inline-block;
+    width: 280px;
+    height: 600px;
+    box-shadow: 0 0.46875rem 2.1875rem rgba(90, 97, 105, .1), 0 0.9375rem 1.40625rem rgba(90, 97, 105, .1), 0 0.25rem 0.53125rem rgba(90, 97, 105, .12), 0 0.125rem 0.1875rem rgba(90, 97, 105, .1);
+    margin: 10px;
+    margin-top: 50px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.carousel-cell .card-inner {
+    padding: 0 20px 20px 20px;
+}
+
+.carousel-cell heading {
+    font-size: 40px;
+    margin-bottom: 50px;
+
+}
+
+.carousel-cell paragraph {
+
+    font-size: 10px;
+    margin: 10px 0 20px 0;
+}
+
+.carousel-cell li {
+    font-size: 20px;
+
+}
+
+.carousel-cell ul {
+    margin-bottom: 50px;
+}
+
+.btn {
+    text-align: center;
+    display: block;
+    margin-bottom: 50px;
+    margin: 10px;
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: orange;
+    color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .05), 0 4px 10px rgba(90, 97, 105, .25);
+}
+
+.btn:active {
+    background-color: #fff;
+    color: gray;
+}
+
+.btn1:active {
+    background-color: orange;
+    color: #fff;
+}
+
+.btn1 {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-color: orange;
+    color: gray;
+    border-width: 3px;
+}
+
+.carousel-cell a {
+    text-align: center;
+    display: block;
+}
+
+.carousel-cell a:hover {
+    opacity: 0.5;
+}
+
+.Boxclass {
+    display: block;
+    margin: 10px;
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+
+.pBox {
+    line-height: 26px;
+    font-size: 16px;
+
+}
+
+.Boxclass h3 {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 16px;
+
+}
+
+.Boxclass span {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: .5px;
+}
+
+.a2Box {
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.smallBoxclass {
+    display: inline-block;
+    margin: 5px;
+    opacity: 0.9;
+    border-radius: 5%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    background-color: rgb(46, 139, 87);
+    width: 380px;
+    height: 200px;
+    display: inline-block;
+    transition: width 3s;
+    transition: height 3s;
+
+}
+
+.smallBoxclass:hover {
+    height: 300px;
+    width: 400px
+}
+
+.smallBoxclass h2 {
+
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 34px;
+
+}
+
+.smallBoxclass p,
+a {
+
+    margin-top: 3px;
+    margin-bottom: 3px;
+
+    font-size: 14px;
+}
+
+.smallBoxclass img {
+
+
+    float: right;
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+    margin-right: 40px;
+    border-radius: 60px;
+    border-width: 20px;
+    border-color: orange;
+}
+
+.divsmallone {
+
+    margin-left: 5px;
+}
+
+.divsmalltow span {
+    display: inline-block;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 10px;
+    text-align: center;
+
+
+    display: inline-block;
+}
+
+
+.divsmallthree span {
+    display: inline-block;
+    margin-top: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.BlueBoxclass {
+    border-radius: 5%;
+    margin: 10px;
+    display: inline-block;
+    background-color: #2b3865;
+    opacity: 0.9;
+    height: 270px;
+    width: 270px;
+    text-align: center;
+
+}
+
+.BlueBoxclass h2 {
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+
+}
+
+.BlueBoxclass p {
+    color: white;
+
+
+    font-size: 24px;
+    font-weight: 700px;
+}
+
+.headingone {
+    margin: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    line-height: 50px;
+
+    font-weight: 1000;
+
+}
+
+.paragtow {
+    text-align: center;
+    display: block;
+
+}
+
+.inputclass {
+    text-align: center;
+    display: block;
+
+
+}
+
+.inputclass input {
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    width: 500px;
+    height: 50px;
+
+}
+
+.inputclass button {
+    color: #fff;
+    background-color: #2b3865;
+    height: 50px;
+
+}
+
+.inputclass button:active {
+    opacity: 0.5;
+}
+
+.underSmall {
+    text-align: center;
+    color: red;
+}
+
+.time {
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    background-color: #2b3865;
+}
