@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
 function Time() {
-    setInterval(updateTime, 1000);
     const now = new Date().toLocaleTimeString('en-US', {
         // en-US can be set to 'default' to use user's browser settings
         hour: '2-digit',
@@ -9,6 +8,9 @@ function Time() {
         second: '2-digit'
     });
     const [timeValue, setTime] = useState(now);
+    setInterval(updateTime, 1000);
+
+
     function updateTime() {
         const newtime = new Date().toLocaleTimeString('en-US', {
             // en-US can be set to 'default' to use user's browser settings
@@ -16,7 +18,6 @@ function Time() {
             minute: '2-digit',
             second: '2-digit'
         });
-        console.log(newtime)
         setTime(newtime);
     };
     return (
