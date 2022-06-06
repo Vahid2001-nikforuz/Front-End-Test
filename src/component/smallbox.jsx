@@ -7,7 +7,7 @@ function SmallBox(props) {
         backgroundColor: props.code,
     }
     return (
-        <div class="smallBoxclass" style={personalstyle}>
+        <div className="smallBoxclass" style={personalstyle}>
             <img src={url} />
 
             <div className="divsmallone">
@@ -23,8 +23,8 @@ function SmallBox(props) {
             </div>
             <div className="divsmallthree">
                 <span >{props.number1}</span>
-                <sapn>{props.number}</sapn>
-                <span>{props.number3}</span>2
+                <span>{props.number}</span>
+                <span>{props.number3}</span>
             </div>
 
         </div>
