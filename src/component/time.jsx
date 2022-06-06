@@ -21,7 +21,7 @@ function Time() {
         setTime(newtime);
     };
     return (
-        <h1 class="time">{timeValue}</h1>
+        <h1 className="time">{timeValue}</h1>
     )
 
 
